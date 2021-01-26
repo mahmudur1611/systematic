@@ -1,0 +1,387 @@
+/* =========================== */
+/* BASIC SETUP */
+/* =========================== */
+*{
+    margin: 0; padding: 0;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-family: 'Titillium Web', sans-serif;
+}
+
+/* ============================= */
+/* REUSABLE COMPONENT */
+/* ============================= */
+.row{
+    max-width: 120rem;
+}
+
+
+/* READ MORE */
+.read-more{
+    text-align: right;
+    margin-right: 2rem;
+}
+.read-more a:link,
+.read-more a:visited{
+    color: #ba2e1f;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+/* ALL HEADING */
+h1{
+    font-size: 8rem;
+    font-weight: 700;
+    color: #000000;
+    margin: 10rem 0 1.8rem;
+}
+h2{
+    font-size: 2.6rem;
+    font-weight: 600;
+    color: #333333;
+    margin: 4.5rem 0 4rem;
+}
+h3{
+    font-size: 2rem;
+    font-weight: 600;
+    margin: 4rem 0 2.5rem;
+    color: #666666;
+}
+h4{
+    color: #878787;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+
+
+
+/* IMAGE SHADOW */
+img{
+    box-shadow: .5rem rgba(0, 0, 0, 0.3);
+    border-radius: .5rem;
+}
+
+
+
+
+
+
+/* ============================= */
+/* TOP NAV & SEARCH AREA */
+/* ============================= */
+
+/* TOP BAR */
+div.top-nav-bar{
+    background: #ba2e1f;
+}
+.top-nav-bar ul{
+    margin: 1.5rem 0;
+}
+.top-nav-bar ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin-right: .5rem;
+}
+.top-nav-bar ul li a{
+    color: #ffffff;
+    font-size: 1.3rem;
+    text-decoration: none;
+}
+.top-nav-bar ul li a span{
+    margin-left: .5rem;
+}
+
+/* SEARCH AREA */
+.search-area{
+    background: #ffffff;
+    margin: 1.2rem 0;
+    max-width: 20rem;
+    min-width: 20rem;
+    border-radius: 2.5rem;
+    float: right;
+}
+.search-area input{
+    width: 70%;
+    padding: .5rem;
+    margin: 0 0 0 1rem;
+    border: 0;
+    max-width: 16rem;
+    min-width: 16rem;
+}
+.search-area img{
+    width: 2rem;
+    height: auto;
+}
+
+
+
+
+
+
+/* ============================= */
+/* LOOG AND SOCIAL ICON*/
+/* ============================= */
+
+/* LOGO */
+.logo-soical{
+    margin: 4rem 0;
+}
+
+/* SOCIAL ICON */
+.social-icon{
+    float: right;
+}
+.social-icon ul li{
+    list-style-type: none;
+    display: inline-block;
+}
+.social-icon ul li a{
+    color: #ffffff;
+}
+.social-icon ul li a:link i::before{
+    background: #333333;
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    display: inline-block;
+    font-size: 2rem;
+    padding: .7rem;
+    margin-left: 1rem;
+    transition: .3s;
+}
+
+.social-icon ul li a:hover i::before{
+    color: #000000;
+    background: #ee802f;
+    transform: rotate(360deg);
+}
+
+
+
+/* ===================== */
+/* MAIN NAV BAR */
+/* ===================== */
+
+/* MOBILE MENU */
+.mobile-menu{
+    display: none;
+    margin-bottom: 2.5rem;
+}
+.mobile-menu ul{
+    background: linear-gradient(#333333, #2b2b2b);
+}
+.mobile-menu ul li{
+    list-style-type: none;
+    line-height: 1.5;
+}
+.mobile-menu ul li a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.6rem;
+}
+
+/* NAV BAR */
+.main-nav{
+    margin-bottom: 2.5rem;
+}
+.main-nav .container{
+    background: linear-gradient(#333333, #2b2b2b);
+    text-align: center;
+}
+.main-nav ul li{
+    display: inline-block;
+    margin: 1rem 0;
+    margin-left: 2rem;
+}
+.main-nav ul li:first-child{
+    margin-left: 0;
+}
+.main-nav ul li a,
+.main-nav ul li a:link,
+.main-nav ul li a:visited{
+    color: #ffffff;
+    font-size: 1.6rem;
+    text-decoration: none;
+}
+.main-nav ul li a:hover{
+    color: #ba2e1f;
+}
+
+
+
+/* ========================== */
+/* HEADING IMAGE AND TITLE */
+/* ========================== */
+
+/* HEADING IMAGE */
+.heading-img-title img{
+    width: 40rem;
+    margin-left: 0;
+}
+
+/* HEADING TITLE */
+
+
+
+.gx-5 p{
+    color: #666666;
+    font-size: 1.6rem;
+    width: 80%;
+}
+.read-more{
+    text-align: right;
+    margin-right: 2rem;
+}
+.read-more a:link,
+.read-more a:visited{
+    color: #ba2e1f;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+
+
+/* ============================= */
+/* ABOUT US SECTION */
+/* ============================= */
+.about-section{
+    background: #f2f2f2;
+}
+.about.img img{
+    height: 14rem;
+    width: 29rem;
+}
+.about-section p{
+    color: #878787;
+    font-size: 1.4rem;
+    width: 80%;
+}
+.abt1{
+    margin-bottom: 1rem;
+}
+
+/* SERVICES SECTION */
+.gx-5 img{
+    height: 7rem;
+    width: 7rem;
+}
+.services{
+    margin: 3rem 0;
+}
+
+/* CLIENTS PART */
+.clients{
+    margin-bottom: 2rem;
+}
+.clients .row{
+    margin-bottom: 1rem;
+}
+.clients h4{
+    margin: 2rem 0;
+}
+
+
+
+
+/* =========================== */
+/* BOTTOM PART */
+/* =========================== */
+.bottom-part{
+    position: relative;
+    color: #666666;
+    font-size: 1.4rem;
+}
+h3::before{
+    content: "";
+    background: #666666;
+    height: .1rem;
+    width: 20rem;
+    position: absolute;
+    display: inline-block;
+}
+
+/* TWEETS */
+.tweets p{
+    width: 85%;
+    margin-bottom: 2rem;
+}
+.tweets p a{
+    color: #ba2e1f;
+    text-decoration: none;
+}
+.tweets p span{
+    color: #7e7d7d;
+    font-size: 1.2rem;
+}
+
+/* QUICK LINKS */
+.links ul{
+    margin: 0;
+    padding: 0;
+}
+.links ul li{
+    list-style-type: none;
+    border-bottom: .1rem solid #666666;
+    margin-bottom: .4rem;
+    width: 20rem;
+}
+.links ul li a{
+    color: #ba2e1f;
+    text-decoration: none;
+}
+
+/* BLOG */
+.posts .role{
+    font-size: 1.2rem;
+}
+.posts .role span{
+    color: #ba2e1f;
+}
+.posts .pp{
+    width: 85%;
+}
+
+/* CONTACT */
+form input,
+textarea,
+button{
+    display: block;
+}
+form input,
+textarea{
+    width: 80%;
+    background: #f2f2f2;
+    border: 0;
+    padding: .7rem;
+    margin: 1rem 0;
+    border-radius: .5rem;
+}
+form button{
+    width: 15rem;
+}
+
+
+
+/* =========== */
+/* footer */
+footer{
+    background: #f2f2f2;
+    font-size: 1.4rem;
+    color: #666666;
+    overflow: hidden;
+}
+
+.copyright{
+    float: left;
+    margin: 2rem 0;
+}
+.owner{
+    float: right;
+    margin: 2rem 0;
+}
+
+
